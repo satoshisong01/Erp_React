@@ -1,0 +1,23 @@
+/* 컨텍스트 메뉴 스타일 */
+.context-menu {
+	z-index: 1000;
+	background-color: #fff;
+	font-size: 14px;
+	border: 1px solid #ccc;
+}
+  /* 메뉴 아이템 스타일 */
+.context-menu-item {
+	outline: none;
+	padding: 4px 10px;
+	cursor: pointer;
+}
+
+.context-menu-item:not(:last-child) {
+	border-bottom: 1px solid #ccc;
+}
+
+/* 메뉴 아이템 호버 스타일 */
+.context-menu-item:hover {
+	background-color: #d9f0ff;
+}
+  

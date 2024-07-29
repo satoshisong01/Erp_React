@@ -1,0 +1,8 @@
+.UserInfo {
+  display: flex;
+  /* margin: auto; */
+}
+
+.UserInfo > div {
+  /*flex-basis: 50%;*/
+}

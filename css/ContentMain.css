@@ -1,0 +1,27 @@
+@import "~rc-easyui/dist/themes/default/easyui.css";
+@import "~rc-easyui/dist/themes/icon.css";
+@import "~rc-easyui/dist/themes/react.css";
+.datagrid-cell {
+    padding: 0;
+}
+
+.table-responsive {
+}
+
+.userTable > table > tbody > tr > th {
+    background-color: rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+.userTable > table > tbody > tr > th,
+.userTable > table > tbody > tr > td {
+    vertical-align: middle;
+}
+
+/*datagrid-td:nth-last-of-type(2) {
+    background-color: brown;
+}*/
+
+.panel-body {
+    height: 100%;
+}

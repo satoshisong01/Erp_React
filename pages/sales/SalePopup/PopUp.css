@@ -1,0 +1,37 @@
+/* Add this CSS to your styles or a separate stylesheet */
+#example {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#example th,
+#example td {
+    border: 1px solid #dddddd;
+    /*text-align: left;*/
+    padding: 8px;
+}
+
+#example th {
+    background-color: #f2f2f2;
+}
+
+.break-page {
+    page-break-before: always;
+}
+
+.display {
+    /*border: 2px solid gray;*/
+}
+
+.display > thead > tr > th {
+    border: 2px solid gray;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}

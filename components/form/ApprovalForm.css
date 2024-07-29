@@ -1,0 +1,159 @@
+.form-container {
+	display: flex;
+	justify-content: center;
+}
+
+/* .newBody {
+    width: 1100px;
+    max-width: 1100px;
+    margin: auto;
+} */
+
+.header-row {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.top {
+    padding: 10px;
+}
+
+.form-button-group {
+    display: flex;
+    justify-content: right;
+}
+
+.form-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-title > h1 {
+    margin: 0;
+}
+
+.CostForm-title {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.area-container {
+    display: flex;
+    margin-left: auto;
+}
+
+/* 발신부서 영역 */
+.area-container .department {
+    writing-mode: vertical-rl;
+    background-color: #e3ecf8;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* transform: translateX(-10%); */
+}
+
+/* 발신부서 */
+.area-container .department > h3 {
+    /* transform: translateX(-10%); */
+}
+
+/* 박스 영역 */
+.area-container .area {
+    width: 100px;
+}
+
+.area-container .area .top {
+    background-color: #e3ecf8;
+    border: 1px solid gray;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.area-container .area .bottom {
+    border: 1px solid gray;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#titleSelect {
+    justify-content: flex-start;
+}
+
+#titleSelectId {
+    margin-left: 2.3%;
+}
+
+.table8-1-1 {
+    flex: 0.99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 35px;
+    font-size: large;
+    text-align: center;
+    background-color: slategrey;
+    border: 1px solid gray;
+    color: #eeeeee;
+}
+
+.table8-2-2 {
+    flex: 4;
+    display: flex;
+    /*margin-left: 20px;*/
+    /*padding-left: 20px;*/
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+}
+
+.titleH3 {
+    font-size: 20px;
+    padding: 15px 6px;
+    width: 100%;
+}
+
+.tableMain {
+    margin-bottom: 50px;
+}
+
+.tableBodyTop,
+.tableBodyBot {
+    border: 0;
+    margin: 0;
+}
+
+.btnW,
+.btnR {
+    background-color: #fff;
+    color: black;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+
+.btnR {
+    color: #fff;
+    background-color: #fd3d6b;
+}
+
+.won {
+    text-align: right;
+    margin-bottom: 2px;
+}
+
+  
+  
+  
+  

@@ -1,0 +1,727 @@
+:root {
+    --color-blue: #007bff;
+    --background-white: #fff;
+}
+
+.popUpHomeBody {
+    background-color: var(--background-white);
+}
+
+.popUpFirstTable {
+    width: 100%;
+}
+
+.tableMain {
+    margin: 0;
+    /*margin-top: 50px;*/
+    /*background-color: aquamarine;*/
+    width: 100%;
+}
+
+.PopUpAddBtn {
+    width: 95%;
+    padding: 8px 0;
+    /*margin: auto;*/
+    border: 0;
+    margin: 10px 0;
+}
+
+.buttonParent {
+    display: flex;
+    justify-content: center;
+}
+
+.tableBody {
+    width: 100%;
+    /*background-color: antiquewhite;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /*align-items: center;*/
+    margin-bottom: 50px;
+    box-sizing: content-box;
+    /*padding-top: 100px;*/
+}
+
+.detailCost {
+    width: 100%;
+    /*background-color: antiquewhite;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /*align-items: center;*/
+    margin-bottom: 50px;
+}
+
+.tableTr,
+.tableTrDetail {
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+.tableTrDetail {
+    width: 100%;
+}
+
+.tableTr2 {
+    height: 100px;
+}
+.tableTr3,
+.tbodyDiv {
+    width: 90%;
+}
+
+.tableTr {
+    width: 100%;
+    margin: 0;
+}
+
+.tbodyTd {
+    text-align: center;
+    flex: 0.5;
+    width: 15px;
+}
+
+.tbodyTd > input {
+    width: 100%;
+}
+
+.tdBtn {
+    /*width: 100%;*/
+    /*margin: 10px;*/
+}
+
+.table2-1 {
+    /*flex: 1;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 200px;
+    /*height: 30px;*/
+    font-size: large;
+    text-align: center;
+    background-color: #e3ecf8;
+    border: 1px solid gray;
+}
+
+.table2-1-2 {
+    height: 100%;
+}
+
+.table2-2 {
+    /*flex: 5;*/
+    width: 100%;
+    display: flex;
+    /*margin-left: 20px;*/
+    /*padding-left: 20px;*/
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+}
+
+.table3-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 150px;
+    /*height: 30px;*/
+    font-size: large;
+    text-align: center;
+    background-color: #e3ecf8;
+    border: 1px solid gray;
+}
+
+.table3-2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid gray;
+}
+
+.table4-2 {
+    flex: 2;
+    width: 100%;
+    display: flex;
+    /*padding-left: 20px;*/
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+}
+
+.table4-3,
+.table4-3F {
+    flex: 2;
+    display: flex;
+    /*padding-left: 20px;*/
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    background-color: #e3ecf8;
+}
+
+.tableItem {
+    flex: 4;
+    display: flex;
+    /*padding-left: 20px;*/
+    font-size: large;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    background-color: #e3ecf8;
+}
+
+.tableWhiteItem {
+    flex: 4;
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+    /*width: 150px;*/
+    /*height: 50px;*/
+    font-size: large;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid gray;
+    border-bottom: none;
+    border-top: none;
+}
+
+.table4-3,
+.table4-3F {
+    /*flex: 1;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*width: 150px;*/
+    /*height: 50px;*/
+    font-size: large;
+    text-align: center;
+    background-color: #e3ecf8;
+    border: 1px solid gray;
+}
+
+.tableRedPercent,
+.tableRedPercentF {
+    display: flex;
+    width: 50px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    text-align: center;
+    color: red;
+    background-color: #e3ecf8;
+    border: 1px solid gray;
+}
+
+.tableRedPercentW,
+.tableRedPercentWF {
+    display: flex;
+    width: 50px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid gray;
+    border-top: none;
+    border-bottom: none;
+}
+
+.table4-3White,
+.table4-3WhiteBlue,
+.tableWhiteDetail,
+.table4-3WhiteF,
+.table4-3WhiteF2 {
+    flex: 2;
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+    /*width: 150px;*/
+    /*height: 50px;*/
+    font-size: large;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid gray;
+    border-bottom: none;
+    border-top: none;
+}
+
+.table4-3F {
+    flex: 1;
+}
+
+.tableRedPercentF {
+    flex: 0.2;
+}
+
+.table4-3WhiteBlue {
+    color: blue;
+}
+
+.table4-3WhiteF {
+    /*flex: 1;*/
+}
+
+.tableRedPercentWF {
+    flex: 0.2;
+}
+
+.table4-3WhiteF2 {
+    /*display: flex;*/
+    /*flex: 2.22;*/
+}
+
+.table8-1 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 30px;
+    font-size: large;
+    text-align: center;
+    background-color: slategrey;
+    border: 1px solid gray;
+    color: #eeeeee;
+}
+
+.table8-2 {
+    flex: 1.5;
+    display: flex;
+    /*margin-left: 20px;*/
+    /*padding-left: 20px;*/
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+}
+
+.thTitle1,
+.thTitle2 {
+    text-align: center;
+    margin-right: 0;
+    font-size: small;
+}
+
+.inputTh {
+    width: auto;
+    height: 3vh;
+    display: flex;
+    justify-content: center;
+    margin: 0 5px;
+}
+
+.tbodyTdSelect {
+    width: 100%;
+    appearance: auto;
+    -webkit-appearance: auto;
+    -moz-appearance: auto;
+}
+
+.contentForm {
+    width: 100%;
+    margin: auto;
+}
+/* ------------------ */
+.stateName {
+    height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 13px;
+    padding: 10px;
+}
+
+.stateNameB {
+    background-color: #efeeec;
+}
+
+.stateNameW {
+    background-color: #d7e5ee;
+}
+
+.stateNameF {
+    background-color: #dfeddd;
+}
+
+/* ------------------ */
+
+.dotPoint {
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.dotPointB {
+    color: #91918e;
+}
+
+.dotPointW {
+    color: #6996ba;
+}
+
+.dotPointF {
+    color: #769a7f;
+}
+/* ------------------ */
+
+.stateNameTitle {
+    font-weight: bold;
+}
+
+.stateNameTitleB {
+    color: #32302d;
+}
+
+.stateNameTitleW {
+    color: #3d5061;
+}
+
+.stateNameTitleF {
+    color: #617566;
+}
+/* ------------------ */
+
+.bucket {
+    display: flex;
+    align-items: center;
+}
+
+.fa-list-ul {
+    font-size: large;
+}
+
+.textAreaWidth {
+    width: 100%;
+    height: 97%;
+}
+
+.titleName {
+    margin-left: 20px;
+    font-size: large;
+    font-weight: 600;
+}
+
+.contentTitle {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.halfContent {
+    width: 48%;
+}
+
+.arrowBtn {
+    /*height: 100%;*/
+    transition: transform 300ms ease-in;
+}
+
+.arrowBtn.clicked {
+    transform: rotate(180deg);
+}
+
+.titleMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    width: 90%;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px gray;
+}
+
+.TableBucket {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /*max-width: 1100px;*/
+    margin: auto;
+}
+
+.hideDivRun,
+.hideDivRun2,
+.hideDivRun3,
+.hideDivRun4,
+.hideDiv,
+.hideDiv2,
+.hideDiv3,
+.hideDiv4,
+.hideDiv5,
+.hideDiv6,
+.hideDiv7,
+.hideDiv8 {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-20px);
+    transition: opacity 300ms ease-in, transform 300ms ease-in;
+    margin-top: 20px;
+    /*background-color: aquamarine;*/
+    height: 0;
+    width: 100%;
+    margin: auto;
+    margin: 0;
+    /*overflow-x: scroll;*/
+}
+
+.hideDivRun.clicked,
+.hideDivRun2.clicked,
+.hideDivRun3.clicked,
+.hideDivRun4.clicked,
+.hideDiv.clicked,
+.hideDiv2.clicked,
+.hideDiv3.clicked,
+.hideDiv4.clicked,
+.hideDiv5.clicked,
+.hideDiv6.clicked,
+.hideDiv7.clicked,
+.hideDiv8.clicked {
+    height: 100%;
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    margin: 0;
+    /*display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;*/
+}
+
+.div5Span {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+}
+
+#content5 {
+    margin-bottom: 30px;
+}
+
+.hideDiv7,
+.hideDiv8,
+.hideDiv7.clicked,
+.hideDiv8.clicked {
+    height: 200px;
+}
+
+.hideDiv8 {
+    background-color: beige;
+    border: 3px black dotted;
+}
+
+.fold.clicked,
+.fold2.clicked,
+.fold3.clicked,
+.fold4.clicked,
+.fold5.clicked,
+.fold6.clicked,
+.fold7.clicked {
+    height: 0;
+}
+
+.tableHead {
+    width: 90%;
+    /*background-color: antiquewhite;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.TableBucket > .dataTables_wrapper {
+    width: 90%;
+    margin: auto;
+}
+
+.headerH2 > .spanCss {
+    height: 30px;
+}
+
+.headerH2 {
+    border-bottom: 1px solid #ededed;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dataTables_length > label {
+    margin-bottom: 20px;
+}
+
+.spanCss {
+    margin-left: 20px;
+}
+
+.jarviswidget > header {
+    line-height: 30px;
+}
+
+.jarviswidget > .table-responsive {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 20px;
+    padding: 0;
+}
+
+.jarviswidget {
+    margin: 0;
+}
+
+.TableBucket > #content {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 0;
+}
+
+.tableMain2 {
+    width: 25vw;
+}
+
+.tableTrTotal {
+    display: flex;
+}
+
+.totalSum {
+    padding: 10px 0;
+}
+
+.totalCount {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    margin-left: 10px;
+}
+
+.btnWrap {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+table.dataTable {
+    border-collapse: collapse;
+}
+
+.sorting_1 {
+    /*display: flex;*/
+    /*text-align: center;*/
+    /*justify-content: center;*/
+    align-items: center;
+    padding: 0;
+    /*height: 100%;*/
+    width: 100%;
+}
+
+.tableHeaderTh {
+    width: 30px;
+    padding: 0;
+}
+
+/*table.dataTable thead > tr > th.sorting.tableHeaderTh:after,
+table.dataTable thead > tr > th.sorting.tableHeaderTh:before {
+    display: none;
+}*/
+
+table.dataTable thead > tr > th.sorting#checkBoxAll:after,
+table.dataTable thead > tr > th.sorting#checkBoxAll:before {
+    display: none;
+}
+
+table.dataTable tbody th,
+table.dataTable tbody td {
+    padding: 0;
+}
+.table > tbody > tr > td {
+    padding: 7.5px;
+}
+
+table > thead > tr > #thCheckBox {
+    margin: 0;
+    height: 30px;
+}
+
+table > tbody > tr > .sorting_1 {
+    /*width: 708px;*/
+    margin: auto;
+    /*text-align: center;*/
+    vertical-align: inherit;
+    height: 100%;
+}
+input[type="checkbox"],
+input[type="radio"] {
+    margin: 0;
+}
+
+table > tbody > .tableHeaderTh {
+    padding: 0;
+}
+
+table > thead > tr > #checkBoxAll {
+    /*width: 30px;*/
+    margin: auto;
+    /*width: 2%;*/
+    padding: 0;
+    text-align: center;
+    vertical-align: inherit;
+}
+
+table > tbody > tr > .sorting_1 > #checkBoxItem {
+    padding: 0;
+    height: 100%;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+#checkBoxItem {
+    width: 13px;
+}
+
+.table-responsive > div > div > div > .tableBtn {
+    margin-top: 0;
+}
+
+.buttonBody {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    /* width: 100%; */
+}
+
+.buttonBody.clicked {
+    display: flex;
+    justify-content: flex-end;
+    /* position: absolute; */
+    /* width: 100%; */
+}
+
+.arrowBtnStyle {
+    background-color: #fff;
+    border: 1;
+}
+
+#choiceBtn {
+    margin: 0;
+}
+
+.dragDrop {
+}
+
+/*#checkBoxAll {
+    padding: 0;
+    text-align: center;
+}*/

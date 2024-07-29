@@ -1,0 +1,12 @@
+.multi-column-table th {
+    text-align: center;
+    border: 3px solid black; /* 오른쪽 border를 추가합니다. */
+    padding: 8px; /* 셀 내부 여백을 조절합니다. */
+}
+
+.multi-column-table td {
+    text-align: center;
+    border: 3px solid blue; /* 오른쪽 border를 추가합니다. */
+
+    padding: 8px; /* 셀 내부 여백을 조절합니다. */
+}

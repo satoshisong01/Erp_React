@@ -1,0 +1,115 @@
+:root {
+    --color-blue: #007bff;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.btn-primary {
+    margin: 10px 10px 10px 0;
+    background-color: var(--color-blue);
+    transition: all 0.2s;
+    /*padding: 10px;*/
+    /*width: 100%;*/
+}
+
+.btn-primary:hover {
+    transform: scale(1.05);
+}
+
+.tableBtn {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    /*margin-top: px;*/
+}
+
+.tableBtnPosition {
+    position: relative;
+}
+
+#utilBtn,
+#delUtil,
+#addUtil,
+#utilBtn2 {
+    width: 100%;
+    padding: 5px;
+    max-width: 100px;
+    z-index: 3;
+    border-radius: 5px;
+    /*border: 1px solid #4279c5;*/
+}
+
+#utilBtn:hover,
+#delUtil:hover,
+#addUtil:hover,
+#utilBtn2:hover {
+    cursor: pointer;
+}
+
+#utilBtn2 {
+    width: 100%;
+    /*padding: 5px;*/
+    max-width: 100px;
+}
+
+.csvIcon,
+.copyIcon,
+.printIcon {
+    background-color: #fff;
+    color: #4279c5;
+    transition: all 0.2s;
+}
+
+.csvIcon:hover,
+.copyIcon:hover,
+.printIcon:hover {
+    background-color: #4279c5;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+.delIcon {
+    height: 32px;
+    background-color: #fd3d6b;
+    border: none;
+    transition: all 0.2s;
+}
+
+.delIcon:hover {
+    background-color: #fd3d6b;
+    transform: scale(1.05);
+}
+
+.addIcon {
+    /*background-color: var(--color-blue);*/
+    /*color: #fff;*/
+    /*margin: 10px 10px 10px 0;*/
+    border: none;
+    /*transition: all 0.2s;*/
+    /*background-color: #007bff;*/
+}
+
+/*.addIcon:hover {
+    background-color: var(--color-blue);
+    transform: scale(1.05);
+}*/
+
+#addUtil,
+#delUtil {
+    border: none;
+}
+
+.btnImg {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.utilIcon {
+    margin-right: 5px;
+}

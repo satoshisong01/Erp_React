@@ -1,0 +1,183 @@
+.topMenuBtn {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 5px;
+}
+
+.searchMain {
+    position: relative;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /*margin-left: 57px;*/
+    /*margin-top: 10px;*/
+}
+
+.box1 {
+    flex: 1;
+}
+
+.boxDate {
+    /*position: relative;*/
+    display: flex;
+}
+
+.boxCalendar {
+    position: absolute;
+    top: 100%;
+    left: -70%;
+    z-index: 999;
+}
+
+.boxDates {
+    display: flex;
+}
+
+.box2 {
+    flex: 2;
+}
+
+.box3 {
+    flex: 4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box3-0 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box3-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.range {
+    margin: 5px;
+}
+
+.buttonTool {
+}
+
+.deleteText {
+    margin-left: 5px;
+}
+
+.refreshIcon,
+.searchIcon,
+.clearIcon {
+    z-index: 3;
+    padding: 5px 12px;
+    transition: all 0.2s;
+    background-color: #fff;
+    color: #3276b1;
+    border: 1px solid #3276b1;
+}
+
+.btnSearch {
+    /*background-color: #fff;*/
+    /*transition: all 0.2s;*/
+    /*width: 15px;*/
+    color: #3276b1;
+    fill: #3276b1;
+    background-color: aqua;
+    /*height: 15px;*/
+    /*padding: 0;*/
+}
+
+.btnSearch:hover {
+    /*background-color: #fff;*/
+    /*color: #3276b1;*/
+    /*transform: scale(1.05);*/
+}
+
+.refreshIcon:hover,
+.searchIcon:hover,
+.clearIcon:hover {
+    background-color: #3276b1;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+/*.refreshIcon {
+    transition: transform 0.3s ease-in-out;
+}
+
+.refreshI:hover {
+    animation: rotate 1s infinite linear;
+}*/
+
+.refreshI {
+    transition: transform 0.3s ease-in-out; /* 애니메이션 시간과 가속도 조절 */
+}
+
+.refreshIcon:hover .refreshI {
+    animation: rotate 0.5s linear; /* rotate 애니메이션 적용 */
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.btn {
+    /*border: 1px solid #3276b1;*/
+}
+
+.table.dataTable > thead > tr > th {
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.table-bordered,
+.table-bordered > tbody > tr > td,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > td,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > thead > tr > th {
+    border: 1px solid #ddd;
+}
+
+.csvIcon,
+.copyIcon,
+.printIcon {
+    background-color: #fff;
+    color: #4279c5;
+    transition: all 0.2s;
+}
+
+.csvIcon:hover,
+.copyIcon:hover,
+.printIcon:hover {
+    background-color: #4279c5;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+#searchKeyword {
+    width: 100%;
+}
+
+.radioBtn {
+    margin: 0;
+}
+
+#searchKeyword {
+    appearance: auto;
+    -webkit-appearance: auto;
+    -moz-appearance: auto;
+}

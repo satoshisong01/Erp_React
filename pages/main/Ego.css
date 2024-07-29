@@ -1,0 +1,27 @@
+.logo-main {
+    width: auto;
+    height: auto;
+    opacity: 0;
+    animation: appearAndBounce 2s ease-in-out 1s forwards,
+        bounce 2s ease-in-out 3s infinite;
+}
+
+@keyframes appearAndBounce {
+    0% {
+        opacity: 0;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes bounce {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}

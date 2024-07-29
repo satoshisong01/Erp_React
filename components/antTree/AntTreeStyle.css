@@ -1,0 +1,23 @@
+.title {
+	display: inline-flex;
+	margin-right: 10px;
+}
+
+.tree-buttons {
+	display: inline-flex;
+	vertical-align: middle;
+	margin-bottom: 4px;
+}
+
+.tree-button {
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	outline: none;
+	margin-right: 7px;
+}
+
+.tree-button:hover {
+	color: deepskyblue;
+}
+  
